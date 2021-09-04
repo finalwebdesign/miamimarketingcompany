@@ -1,5 +1,6 @@
 <template>
   <div class="header">
+      <img alt="Miami Marketing Company Logo" src="../assets/logo.png" />
     <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br />

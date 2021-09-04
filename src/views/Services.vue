@@ -1,5 +1,6 @@
 <template>
   <div class="services">
+    <Header/>
     <h1>This is an services page</h1>
         <h3>Installed CLI Plugins</h3>
     <ul>
@@ -94,6 +95,18 @@
     </ul>
   </div>
 </template>
+
+<script lang="ts">
+import { Options, Vue } from "vue-class-component";
+import Header from "@/components/Header.vue"; // @ is an alias to /src
+
+@Options({
+  components: {
+    Header,
+  },
+})
+export default class Home extends Vue {}
+</script>
 
 <style scoped>
 h3 {
