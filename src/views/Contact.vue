@@ -11,16 +11,19 @@
   <li>Info@MiamiMarketingCompany.com</li>
   <li>Miami Marketing Company, Inc.</li>
 </ul>
+    <Footer/>
   </div>
 </template>
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
 import Header from "@/components/Header.vue"; // @ is an alias to /src
+import Footer from "@/components/Footer.vue"; // @ is an alias to /src
 
 @Options({
   components: {
     Header,
+    Footer,
   },
 })
 export default class Home extends Vue {}
