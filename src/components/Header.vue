@@ -6,7 +6,7 @@
     <p>Are you and your business ready to work with the leading digital marketing and search engine optimization firm in the Miami, FL area? Our team has years of experience marketing right here in the Miami Florida area. Visit our contact form here or call us direct at (305) 812-5999!</p>
   </div>
 </template>
-
+g
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
 
