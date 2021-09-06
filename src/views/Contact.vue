@@ -1,7 +1,7 @@
 <template>
   <div class="contact">
     <Header />
-    <img
+        <img
       src="../assets/contact-miami-marketing-company.jpg"
       title="Contact Marketing Company Services"
       alt="contact Miami Marketing Company Services"
