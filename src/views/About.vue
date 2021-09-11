@@ -1,7 +1,7 @@
 <template>
   <div class="about">
       <Header/>
-      <img src="../assets/about-miami-marketing-company.jpg" title="About Marketing Company Services" alt="About Miami Marketing Company Services">
+      <img src="../assets/about-miami-marketing-company.png" title="About Marketing Company Services" alt="About Miami Marketing Company Services">
 
     <h1>About Miami Marketing Company</h1>
     <p>Miami Marketing Company has established itself as a leading provider of website development and digital marketing services in the Miami and South Florida area.</p>
