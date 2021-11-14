@@ -3,6 +3,7 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
     <router-link to="/services">Services</router-link> |
+    <router-link to="/blog">Blog</router-link> |
     <router-link to="/contact">Contact</router-link>
   </div>
   <router-view />
@@ -19,6 +20,7 @@
 
 #nav {
   padding: 30px;
+  font-size: 20px;
 }
 
 #nav a {
@@ -27,6 +29,6 @@
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: #e44762;
 }
 </style>

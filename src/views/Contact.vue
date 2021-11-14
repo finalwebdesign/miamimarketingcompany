@@ -1,7 +1,7 @@
 <template>
   <div class="contact">
     <Header />
-        <img
+    <img
       src="../assets/contact-miami-marketing-company.jpg"
       title="Contact Marketing Company Services"
       alt="contact Miami Marketing Company Services"
@@ -37,6 +37,4 @@ import Form from "@/components/Form.vue"; // @ is an alias to /src
 export default class Home extends Vue {}
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
