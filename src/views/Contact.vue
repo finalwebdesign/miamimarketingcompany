@@ -34,7 +34,7 @@ import Form from "@/components/Form.vue"; // @ is an alias to /src
     Form,
   },
 })
-export default class Home extends Vue {}
+export default class Contact extends Vue {}
 </script>
 
 <style scoped></style>

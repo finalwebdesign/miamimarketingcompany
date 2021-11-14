@@ -9,6 +9,7 @@
       <label class="label" for="email">Email</label>
       <input type="text" name="email" id="email" required="" v-model="name" />
     </div>
+    <button></button>
   </div>
 </template>
 
@@ -20,7 +21,7 @@ import { Options, Vue } from "vue-class-component";
     msg: String,
   },
 })
-export default class ContactForm extends Vue {
+export default class Form extends Vue {
   msg!: string;
 }
 </script>

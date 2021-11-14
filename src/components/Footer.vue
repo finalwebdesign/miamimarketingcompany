@@ -17,7 +17,7 @@
         title="Final Web Design"
         >Final Web Design</a
       >, Inc.<br />
-      All Rights Reserved <strong>© Copyright 2021</strong>
+      All Rights Reserved <strong>© Copyright 2022</strong>
     </p>
   </div>
 </template>
@@ -25,11 +25,7 @@
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
 
-@Options({
-  props: {
-    msg: String,
-  },
-})
+
 export default class Footer extends Vue {
   msg!: string;
 }

@@ -40,7 +40,7 @@ import Footer from "@/components/Footer.vue"; // @ is an alias to /src
     Footer,
   },
 })
-export default class Home extends Vue {}
+export default class About extends Vue {}
 </script>
 
 <style scoped></style>
