@@ -10,9 +10,7 @@ g
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
 
-export default class Header extends Vue {
-  msg!: string;
-}
+export default class Header extends Vue { }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -22,6 +20,10 @@ export default class Header extends Vue {
 }
 .logo {
   float: left;
+  padding-left: 45px;
+}
+.navigation {
+  float: right;
 }
 
 </style>

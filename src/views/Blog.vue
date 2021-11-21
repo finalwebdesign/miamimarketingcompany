@@ -1,33 +1,7 @@
-<script>
-import { butter } from "@/buttercms";
-export default {
-  name: "blog-home",
-  data() {
-    return {
-      page_title: "Blog",
-      posts: [],
-    };
-  },
-  methods: {
-    getPosts() {
-      butter.post
-        .list({
-          page: 1,
-          page_size: 10,
-        })
-        .then((res) => {
-          this.posts = res.data.data;
-        });
-    },
-  },
-  created() {
-    this.getPosts();
-  },
-};
-</script>
+
 
 <template>
-  <div id="blog-home">
+  <div id="blog">
     <h1>{{ page_title }}</h1>
     <!-- Create `v-for` and apply a `key` for Vue. Here we are using a combination of the slug and index. -->
     <div v-for="(post, index) in posts" :key="post.slug + '_' + index">
@@ -46,3 +20,9 @@ export default {
     </div>
   </div>
 </template>
+
+
+<script>
+
+</script>
+

@@ -1,12 +1,13 @@
 <template>
   <v-footer>
     <v-container>
-      <img alt="Miami Marketing Company Logo" src="../assets/logo.png" />
-      <h1>{{ msg }}</h1>
       <v-row justify="center">
         <v-col cols="12" lg="8">
           <v-divider></v-divider>
           <div class="py-5">
+            <img alt="Miami Marketing Company Logo" src="../assets/logo.png" />
+            <h1>{{ msg }}</h1>
+
             <v-btn
               elevation="0"
               target="_blank"
@@ -64,7 +65,6 @@
             <div style="font-size: 11px" class="d-flex mb-3 flex-wrap">
               <a
                 href="https://miamimarketingcompany.com/terms-conditions/"
-                target="_blank"
                 class="copy-link pr-1"
               >
                 TERMS & CONDITIONS
@@ -73,19 +73,13 @@
               <v-divider vertical></v-divider>
               <a
                 href="https://miamimarketingcompany.com/privacy-policy/"
-                target="_blank"
                 class="copy-link px-1"
               >
                 PRIVACY POLICY
               </a>
               |
               <v-divider vertical></v-divider>
-              <a
-                href="/contact/"
-                class="copy-link pl-1"
-              >
-                CONTACT US
-              </a>
+              <a href="/contact/" class="copy-link pl-1"> CONTACT US </a>
             </div>
             <p>
               Designed and Developed by
@@ -95,7 +89,9 @@
                 title="Final Web Design"
                 >Final Web Design</a
               >, Inc.<br />
-              All Rights Reserved <strong>© Copyright 2022</strong>
+              <strong
+                >All Rights Reserved: Miami Marketing Company© Copyright 2022
+              </strong>
             </p>
           </div>
         </v-col>
