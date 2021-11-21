@@ -1,5 +1,4 @@
 <template>
-  <div class="container">
     <div class="header">
       <div class="logo">
         <a href="/" title="Home"
@@ -13,7 +12,6 @@
         <router-link to="/blog">Blog</router-link> |
         <router-link to="/contact">Contact</router-link>
       </div>
-    </div>
   </div>
 </template>
 g
@@ -29,7 +27,7 @@ export default class Header extends Vue {}
 }
 .logo {
   float: left;
-  padding: 20px 0px 20px 200px;
+  padding: 20px 0px 20px 170px;
 }
 #nav {
   float: right;

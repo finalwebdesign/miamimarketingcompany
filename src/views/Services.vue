@@ -15,6 +15,7 @@
       digital presence of your business reach out to Miami Marketing Company
       today and speak with one of our talented representatives today.
     </p>
+    <Mosaic />
     <Footer />
   </div>
 </template>
@@ -23,11 +24,14 @@
 import { Options, Vue } from "vue-class-component";
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
+import Mosaic from "@/components/Mosaic.vue";
+
 
 @Options({
   components: {
     Header,
     Footer,
+    Mosaic,
   },
 })
 
