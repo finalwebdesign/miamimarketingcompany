@@ -23,9 +23,7 @@
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
 
-export default class Footer extends Vue {
-  msg!: string;
-}
+export default class Footer extends Vue { }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -35,6 +33,8 @@ export default class Footer extends Vue {
   padding: 100px 5px 45px 5px;
 }
 .logo {
-  padding-top: 20px;
+    padding-top: 100px;
+}
+.finalwebdesign {
 }
 </style>

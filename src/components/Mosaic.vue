@@ -53,6 +53,7 @@ export default class Mosaic extends Vue {}
 .row {
   width: 100%;
   padding: 10px 5px 45px 5px;
+  margin: 10px 0px 10px 0px;
 }
 .service-1 {
   width: 25%;

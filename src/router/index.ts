@@ -24,16 +24,22 @@ const routes: Array<RouteRecordRaw> = [
       import( "../views/Services.vue"),
   },
   {
+    path: '/portfolio/',
+    name: 'Portfolio',
+    component: () =>
+    import( "../views/Portfolio.vue"),
+  },
+  {
+    path: '/blog/',
+    name: 'Blog',
+    component: () =>
+    import( "../views/Blog.vue"),
+  },
+  {
     path: "/contact",
     name: "Contact",
     component: () =>
       import( "../views/Contact.vue"),
-  },
-  {
-    path: '/blog/',
-    name: 'blog',
-    component: () =>
-    import( "../views/Blog.vue"),
   },
   /*
   {

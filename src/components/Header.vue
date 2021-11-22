@@ -1,17 +1,18 @@
 <template>
-    <div class="header">
-      <div class="logo">
-        <a href="/" title="Home"
-          ><img alt="Miami Marketing Company Logo" src="../assets/logo.png"
-        /></a>
-      </div>
-      <div id="nav">
-        <router-link to="/">Home</router-link> |
-        <router-link to="/about">About</router-link> |
-        <router-link to="/services">Services</router-link> |
-        <router-link to="/blog">Blog</router-link> |
-        <router-link to="/contact">Contact</router-link>
-      </div>
+  <div class="header">
+    <div class="logo">
+      <a href="/" title="Home"
+        ><img alt="Miami Marketing Company Logo" src="../assets/logo.png"
+      /></a>
+    </div>
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link> |
+      <router-link to="/services">Services</router-link> |
+      <router-link to="/portfolio">Portfolio</router-link> |
+      <router-link to="/blog">Blog</router-link> |
+      <router-link to="/contact">Contact</router-link>
+    </div>
   </div>
 </template>
 g
