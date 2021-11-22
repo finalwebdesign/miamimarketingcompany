@@ -20,6 +20,8 @@
     <h2>A View Of Our Portfolio</h2>
     <p>Miami Marketing Comopany has worked with numerous businiesses large and small throughoout the Miami area. View our <a href="/portfolio" title="Portfolio">Portfolio</a> today!</p>
     <ImageMosaic />
+    <h2>Ready To Work With Miami's Best?</h2>
+    <p>What sets us apart is our interest in understanding your business and ouot ability to better connect your business stratefy to our design. Miami Marketing Company is a leading provider of website development and SEO services in the South Florida area. Are you and your business ready to work with the leading web development and search engine optimization firm in the Miami, FL area? Our team has years of experience marketing right here in the Miamii Florida area. Visit our <a href="/contact" title="contact">Contact Us</a> or call at (888) 674-7779.</p>
     <Footer />
   </div>
 </template>

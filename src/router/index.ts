@@ -24,6 +24,24 @@ const routes: Array<RouteRecordRaw> = [
       import( "../views/Services.vue"),
   },
   {
+    path: "/services/web-design",
+    name: "Web Design",
+    component: () =>
+      import( "../views/Web-Design.vue"),
+  },
+  {
+    path: "/services/marketing",
+    name: "Web Design",
+    component: () =>
+      import( "../views/Marketing.vue"),
+  },
+  {
+    path: "/services/hosting",
+    name: "Hosting",
+    component: () =>
+      import( "../views/Hosting.vue"),
+  },
+  {
     path: '/portfolio/',
     name: 'Portfolio',
     component: () =>

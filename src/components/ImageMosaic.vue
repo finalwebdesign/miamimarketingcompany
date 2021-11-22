@@ -2,18 +2,23 @@
     <div class="image-mosaic">
       <div class="row">
         <div class="service-1">
-          <h3>Website Design and Development</h3>
+          <a href="services/web-design" title="Web Design"><h3>Website Design and Development</h3></a>
           <img src="../assets/services/web-design.jpg" title="Web Design" >
         </div>
         <div class="service-2">
-          <h3>Digital and Online Marketing</h3>
+          <a href="services/marketing" title="Marketing"><h3>Digital and Online Marketing</h3></a>
           <img src="../assets/services/marketing.jpg" title="Marketing">
 
         </div>
         <div class="service-3">
-                      <h3>Hosting Services</h3>
+                      <a href="services/hosting" title="Hosting"><h3>Hosting Services</h3></a>
 
           <img src="../assets/services/hosting.jpg" title="Hosting">
+        </div>
+                <div class="service-4">
+                    <a href="portfolio" title="Portfolio">  <h3>View Portfolio</h3></a>
+
+          <img src="../assets/services/hosting.jpg" title="Portfolio">
         </div>
     </div>
   </div>
