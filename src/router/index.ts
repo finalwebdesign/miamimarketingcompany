@@ -25,13 +25,13 @@ const routes: Array<RouteRecordRaw> = [
   },
   {
     path: "/services/web-design",
-    name: "Web Design",
+    name: "WebDesign",
     component: () =>
-      import( "../views/Web-Design.vue"),
+      import( "../views/WebDesign.vue"),
   },
   {
     path: "/services/marketing",
-    name: "Web Design",
+    name: "Marketing",
     component: () =>
       import( "../views/Marketing.vue"),
   },

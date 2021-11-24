@@ -1,12 +1,12 @@
 <template>
-  <div class="about">
+  <div class="marketing">
     <Header />
     <img
       src="../assets/about-miami-marketing-company.png"
-      title="About Marketing Company Services"
-      alt="About Miami Marketing Company Services"
+      title="Marketing"
+      alt="Marketing"
     />
-    <h1>About Miami Marketing Company</h1>
+    <h1>Marketing Services with Miami Marketing Company</h1>
     <p>
       Miami Marketing Company has established itself as a leading provider of
       website development and digital marketing services in the Miami and South
@@ -37,7 +37,7 @@ import Footer from "@/components/Footer.vue"; // @ is an alias to /src
     Footer,
   },
 })
-export default class About extends Vue {}
+export default class Marketing extends Vue {}
 </script>
 
 <style scoped></style>

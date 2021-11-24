@@ -13,6 +13,9 @@
       <router-link to="/blog">Blog</router-link> |
       <router-link to="/contact">Contact</router-link>
     </div>
+        <div class="contact">
+<p>(888) 674-7779 | Info@MiamiMarketingCompany.com</p>
+</div>
   </div>
 </template>
 g
@@ -30,8 +33,10 @@ export default class Header extends Vue {}
   float: left;
   padding: 20px 0px 20px 170px;
 }
-#nav {
+.contact {
   float: right;
+}
+#nav {
   padding: 35px 200px 0px 0px;
 }
 #nav a {
