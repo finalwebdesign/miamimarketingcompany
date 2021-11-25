@@ -1,6 +1,16 @@
 <template>
   <router-view />
+
 </template>
+
+<!--
+<script>
+  import { ElButton } from 'element-plus'
+  export default {
+    components: { ElButton },
+  }
+</script>
+-->
 
 <style>
 #app {

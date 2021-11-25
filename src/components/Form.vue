@@ -1,4 +1,6 @@
 <template>
+<div class="row">
+
   <div class="form">
     <h2>Contact Miami Marketing Company</h2>
     <div class="name">
@@ -13,7 +15,12 @@
       <label class="label" for="phone">Phone: </label>
       <input type="text" name="phone" id="phone" required="" v-model="name" />
     </div>
+            <div class="message">
+      <label class="label" for="message">Message: </label>
+      <input type="text" name="message" id="message" required="" v-model="name" />
+    </div>
     <button>Submit</button>
+  </div>
   </div>
 </template>
 
@@ -43,6 +50,9 @@ button {
     margin: 10px 0px 0px 0px;
 }
 .phone {
+    margin: 10px 0px 0px 0px;
+}
+.message {
     margin: 10px 0px 0px 0px;
 }
 </style>

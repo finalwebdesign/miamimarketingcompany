@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
     <div class="logo">
-      <img alt="Miami Marketing Company Logo" src="../assets/logo.png" />
+      <a href="/" title="Miami Marketing Company"><img alt="Miami Marketing Company Logo" src="../assets/logo.png" /></a>
     </div>
     <div class="finalwebdesign">
       <p>
@@ -18,9 +18,8 @@
       </p>
     </div>
     <div>
-      <el-icon class="is-loading">
-        <loading />
-      </el-icon>
+    <el-button type="primary">Primary</el-button>
+
     </div>
   </div>
 </template>

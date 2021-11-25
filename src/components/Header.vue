@@ -35,6 +35,10 @@ export default class Header extends Vue {}
 }
 .contact {
   float: right;
+  padding-bottom: 15px;
+    padding-right: 15px;
+
+  font-size: 17px;
 }
 #nav {
   padding: 35px 200px 0px 0px;
@@ -43,7 +47,6 @@ export default class Header extends Vue {}
   font-weight: bold;
   color: #2c3e50;
 }
-
 #nav a.router-link-exact-active {
   color: #e44762;
 }

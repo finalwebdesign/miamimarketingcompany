@@ -1,25 +1,64 @@
 <template>
-    <div class="image-mosaic">
-      <div class="row">
-        <div class="service-1">
-          <a href="services/web-design" title="Web Design"><h3>Website Design and Development</h3></a>
-          <img src="../assets/services/web-design.jpg" title="Web Design" >
-        </div>
-        <div class="service-2">
-          <a href="services/marketing" title="Marketing"><h3>Digital and Online Marketing</h3></a>
-          <img src="../assets/services/marketing.jpg" title="Marketing">
+  <div class="image-mosaic">
+    <div class="row">
+      <div class="web-design">
+        <a href="services/web-design" title="Web Design"
+          ><h3>Website Design and Development</h3>
+          <img src="../assets/services/web-design.jpg" title="Web Design"
+        /></a>
+        <p>
+          Work with the best professional webite design and development firm in
+          the local Miami, FL area. Miami Marketing Company works closly with
+          local Miami, FL businesses both large and small. Find out what makes
+          the professional deisgn and development of Miami Marketing Comapny the
+          best in the USA.
+        </p>
+        <button>Learn More</button>
+      </div>
+      <div class="marketing">
+        <a href="services/marketing" title="Marketing"
+          ><h3>Digital and Online Marketing</h3>
+          <img src="../assets/services/marketing.jpg" title="Marketing"
+        /></a>
+        <p>
+          Miami Marketing Company is the digital and online marketing company
+          for businesess in the Miami, FL area. If you are interested in
+          learning more about digital and online marketing services. If you are
+          a local Miami business be sure to work with Miami Marketing Company
+          for the best services available!
+        </p>
+        <button>Learn More</button>
+      </div>
+      <div class="hosting">
+        <a href="services/hosting" title="Hosting"
+          ><h3>Hosting Services</h3>
 
-        </div>
-        <div class="service-3">
-                      <a href="services/hosting" title="Hosting"><h3>Hosting Services</h3></a>
+          <img src="../assets/services/hosting.jpg" title="Hosting"
+        /></a>
+                <p>
+          Miami Marketing Company is the digital and online marketing company
+          for businesess in the Miami, FL area. If you are interested in
+          learning more about digital and online marketing services. If you are
+          a local Miami business be sure to work with Miami Marketing Company
+          for the best services available!
+        </p>
+        <button>Learn More</button>
+      </div>
+      <div class="potfolio">
+        <a href="portfolio" title="Portfolio">
+          <h3>View Portfolio</h3>
 
-          <img src="../assets/services/hosting.jpg" title="Hosting">
-        </div>
-                <div class="service-4">
-                    <a href="portfolio" title="Portfolio">  <h3>View Portfolio</h3></a>
-
-          <img src="../assets/services/hosting.jpg" title="Portfolio">
-        </div>
+          <img src="../assets/services/portfolio.jpg" title="Portfolio"
+        /></a>
+                <p>
+          Miami Marketing Company is the digital and online marketing company
+          for businesess in the Miami, FL area. If you are interested in
+          learning more about digital and online marketing services. If you are
+          a local Miami business be sure to work with Miami Marketing Company
+          for the best services available!
+        </p>
+        <button>Learn More</button>
+      </div>
     </div>
   </div>
 </template>
@@ -36,19 +75,19 @@ export default class ImageMosaic extends Vue {}
   padding: 10px 5px 45px 5px;
   margin: 10px 0px 10px 0px;
 }
-.service-1 {
+.web-design {
   width: 25%;
   float: left;
 }
-.service-2 {
+.marketing {
   width: 25%;
   float: left;
 }
-.service-3 {
+.hosting {
   width: 25%;
   float: left;
 }
-.service-4 {
+.portfolio {
   width: 25%;
   float: left;
 }
