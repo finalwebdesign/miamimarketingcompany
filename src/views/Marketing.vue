@@ -6,21 +6,22 @@
       title="Marketing"
       alt="Marketing"
     />
-    <h1>Marketing Services with Miami Marketing Company</h1>
+    <h1>Miami Digital Marketing Services</h1>
     <p>
-      Miami Marketing Company has established itself as a leading provider of
-      website development and digital marketing services in the Miami and South
-      Florida area.
+      Professional Digital Marketing and Advertising Services with a local Miami
+      Marketing Company.
     </p>
+    <h3>Miami Social Media Marketing</h3>
     <p>
-      Our services include website development, marketing and hosting. With over
-      10 years of digital business development, Miami marketing company is sure
-      to be able to grow and improve your business online.
+      Miami Marketing Company has established itself as a leading digital
+      marketing firm throughout the South Florida area. Providing marketing
+      services for customers in Miami-Dade, Broward and Palm Beach.
     </p>
+    <h3>Miami Traditional Marketing Services</h3>
     <p>
-      Find out what makes Miami Marketing Company a leader in digital
-      production, search engine optimization and website development by filling
-      out our contact form or giving our team a call today at (888) 674-7779.
+      Our marketing services including social media outlets, blog management,
+      Search Engine Optimization (SEO), Pay Per Click Campaigns, Email Marketing
+      and more.
     </p>
     <Footer />
   </div>

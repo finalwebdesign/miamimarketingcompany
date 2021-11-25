@@ -13,9 +13,9 @@
       <router-link to="/blog">Blog</router-link> |
       <router-link to="/contact">Contact</router-link>
     </div>
-        <div class="contact">
-<p>(888) 674-7779 | Info@MiamiMarketingCompany.com</p>
-</div>
+    <div class="contact">
+      <p>(888) 674-7779 | Info@MiamiMarketingCompany.com</p>
+    </div>
   </div>
 </template>
 g

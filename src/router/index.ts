@@ -15,49 +15,49 @@ const routes: Array<RouteRecordRaw> = [
     path: "/about",
     name: "About",
     component: () =>
-      import( "../views/About.vue"),
+      import("../views/About.vue"),
   },
   {
     path: "/services",
     name: "Services",
     component: () =>
-      import( "../views/Services.vue"),
+      import("../views/Services.vue"),
   },
   {
     path: "/services/web-design",
     name: "WebDesign",
     component: () =>
-      import( "../views/WebDesign.vue"),
+      import("../views/WebDesign.vue"),
   },
   {
     path: "/services/marketing",
     name: "Marketing",
     component: () =>
-      import( "../views/Marketing.vue"),
+      import("../views/Marketing.vue"),
   },
   {
     path: "/services/hosting",
     name: "Hosting",
     component: () =>
-      import( "../views/Hosting.vue"),
+      import("../views/Hosting.vue"),
   },
   {
-    path: '/portfolio/',
-    name: 'Portfolio',
+    path: "/portfolio",
+    name: "Portfolio",
     component: () =>
-    import( "../views/Portfolio.vue"),
+      import("../views/Portfolio.vue"),
   },
   {
-    path: '/blog/',
-    name: 'Blog',
+    path: "/blog",
+    name: "Blog",
     component: () =>
-    import( "../views/Blog.vue"),
+      import("../views/Blog.vue"),
   },
   {
     path: "/contact",
     name: "Contact",
     component: () =>
-      import( "../views/Contact.vue"),
+      import("../views/Contact.vue"),
   },
   /*
   {

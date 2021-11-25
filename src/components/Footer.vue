@@ -17,13 +17,11 @@
         </strong>
       </p>
     </div>
-  <div>
-    <el-icon :size="size" :color="color">
-      <edit></edit>
-    </el-icon>
-    <!-- Or use it independently without derive attributes from parent -->
-    <edit></edit>
-  </div>
+    <div>
+      <el-icon class="is-loading">
+        <loading />
+      </el-icon>
+    </div>
   </div>
 </template>
 
@@ -41,7 +39,5 @@ export default class Footer extends Vue {}
 }
 .logo {
   padding-top: 100px;
-}
-.finalwebdesign {
 }
 </style>

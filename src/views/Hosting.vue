@@ -1,26 +1,25 @@
 <template>
-  <div class="about">
+  <div class="hosting">
     <Header />
     <img
       src="../assets/about-miami-marketing-company.png"
-      title="About Marketing Company Services"
-      alt="About Miami Marketing Company Services"
+      title="Hosting
+"
+      alt="Hosting
+"
     />
-    <h1>Hosting</h1>
+    <h1>Website Hosting and Dedicated Server Services</h1>
     <p>
-      Miami Marketing Company has established itself as a leading provider of
-      website development and digital marketing services in the Miami and South
-      Florida area.
+      Websites and Web Applications require professional hosting to help ensure
+      your business adapts with new technologies and internet outlets. Our
+      hosting services include managed hosting, WordPress hosting, VPS,
+      Dedicated Servers and more.
     </p>
+    <h3>Professional Managed Hosting</h3>
     <p>
-      Our services include website development, marketing and hosting. With over
-      10 years of digital business development, Miami marketing company is sure
-      to be able to grow and improve your business online.
-    </p>
-    <p>
-      Find out what makes Miami Marketing Company a leader in digital
-      production, search engine optimization and website development by filling
-      out our contact form or giving our team a call today at (888) 674-7779.
+      Ensure that your business is built on the latest website hosting and
+      servers available. All our servers maintain the highest and most
+      professional hosting services available.
     </p>
     <Footer />
   </div>

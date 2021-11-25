@@ -17,8 +17,7 @@
       today and speak with one of our talented representatives today.
     </p>
 
-
-      <div class="services-list">
+    <div class="services-list">
       <div class="web-design">
         <a href="services/web-design" title="Web Design"><h4>Web Design</h4></a>
       </div>
@@ -64,15 +63,13 @@ a {
 }
 .web-design {
   width: 30%;
-  float: left
+  float: left;
 }
 .marketing {
   width: 30%;
-
 }
 .hosting {
   width: 30%;
-    float: right
-
+  float: right;
 }
 </style>
